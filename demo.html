@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+body,html {
+    font-family: sans-serif;
+    background: #ddd;
+}
+
+main {
+    background: #fff;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+    
+
+/** Some reasonable defaults you may want to add to fotorama.css **/
+.fotorama {
+    background: #000;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* try to avoid jank */
+a[data-flickr-embed="true"] {
+    display: block;
+    width: 100%;
+    min-height: 56.25%; /* gives a 16/9 ratio */
+}
+a[data-flickr-embed="true"] img {
+    width: 100%;
+    height: auto;
+}
+
+</style>
+    
+</head>
+<body>
+
+<header>
+<a data-flickr-embed="true" data-transition="dissolve" data-nav="dots" data-keyboard="true" data-loop="true" data-autoplay="true" href="https://www.flickr.com/photos/utamagazine/albums/72157668014128232" title="SEIR Building"><img alt="SEIR Building" height="413" src="https://farm8.staticflickr.com/7491/26368453463_de992e840b_z.jpg" width="676" /></a>
+
+</header>
+
+<main>
+<h1>Slideshow test</h1>
+<a data-flickr-embed="true" data-transition="crossfade" data-number="15"  href="https://www.flickr.com/photos/utamagazine/albums/72157658847726393" title="Homecoming 2015"><img src="https://c4.staticflickr.com/6/5832/22995420435_7c1f5015e8_c.jpg" width="800" height="532" alt="Homecoming 2015"></a>
+
+<script async charset="utf-8" src="fotorama.flickr.js" type="text/javascript" ></script>
+
+
+<h2>Compare with flickr embed</h2>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/utamagazine/albums/72157658847726393" title="Homecoming 2015"><img src="https://c4.staticflickr.com/6/5832/22995420435_7c1f5015e8_c.jpg" width="800" height="532" alt="Homecoming 2015"></a>
+<!--
+<script async src="https://embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+-->
+    
+</main>
+    
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+
+</body>
+</html>
