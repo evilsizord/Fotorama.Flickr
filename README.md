@@ -1,2 +1,3 @@
 # Fotorama.Flickr
-Displays a flickr photoset in a fotorama.io slideshow
+
+Displays a Flickr album in a [Fotorama](http://fotorama.io) slideshow.
